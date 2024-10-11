@@ -1,6 +1,8 @@
 .SelectTitle {
   color: white;
 }
+
+/* Permet de centrer notre menu de selection */
 .center {
   display: flex;
   flex-direction: column;
