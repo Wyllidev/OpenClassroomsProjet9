@@ -8,15 +8,16 @@
     min-height: 669px;
     background-color: white;
 
-    &imageContainer {
+    // L'ajout des __ signifie que imageContainer est un élément d'un bloc parent (méthodologie BEM)
+    &__imageContainer {
         width: 100%;
 
         img {
             width: 100%;
         }
     }
-
-    &title {
+    // L'ajout des __ signifie que title est un élément d'un bloc parent (méthodologie BEM)
+    &__title {
         position: absolute;
         background-color: $primary;
         color: white;
@@ -43,12 +44,12 @@
     }
 
     margin-bottom: 32px;
-
-    &imageContainer {
+    // L'ajout des __ signifie que imageContainer est un élément d'un bloc parent (méthodologie BEM)
+    &__imageContainer {
         margin-bottom: 64px;
     }
-
-    &descriptionContainer {
+    // L'ajout des __ signifie que descriptionContainer est un élément d'un bloc parent (méthodologie BEM)
+    &__descriptionContainer {
         text-align: center;
         padding-left: 64px;
         padding-right: 64px;
